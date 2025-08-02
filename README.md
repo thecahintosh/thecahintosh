@@ -61,7 +61,7 @@ Developed a comprehensive Examination Center Tracking Database System, named "Ce
 
 ## 📬 Connect with Me
 
-[![Instagram](https://img.shields.io/badge/-think.ashvamedh-E4405F?style=flat-square&logo=Instagram&logoColor=white)](https://instagram.com/shivxnshsingh)  
+[![Instagram](https://img.shields.io/badge/-shivxnshsingh-E4405F?style=flat-square&logo=Instagram&logoColor=white)](https://instagram.com/shivxnshsingh)  
 [![GitHub](https://img.shields.io/badge/-GitHub-333?style=flat-square&logo=github&logoColor=white)](https://github.com/thecahintosh)  
 
 ---
