@@ -25,7 +25,7 @@
 ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)   
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)  
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)  
-![Prisma](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=primsa&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-000000?style=for-the-badge&logo=primsa&logoColor=white)
 
 
 ---
