@@ -41,7 +41,7 @@
 
 ## 🚀 My Projects
 
-### 🧠 [Ashvamedh](https://ashvamedh.vercel.app)
+### 🧠 [Ashvamedh](https://startpageashvamedh.vercel.app)
 An open source student based content agency built around deep insights across tech, psychology, finance, and geopolitics.  
 📌 Now expanding into podcast spaces and authorisable social media
 
