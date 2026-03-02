@@ -1,8 +1,7 @@
 # Shivansh Singh
 
 Artificial Intelligence & Machine Learning Undergraduate  
-Thapar Institute of Engineering and Technology (2028)  
-CGPA: 8.20  
+
 
 Multimodal Healthcare AI • Clinical ML Systems • Retrieval-Augmented AI • End-to-End Deployment  
 
