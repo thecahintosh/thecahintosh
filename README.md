@@ -1,64 +1,115 @@
-# 👋 Hi, I'm Shivansh Singh
+# Shivansh Singh
 
-> BTech in AI & ML
-> Passionate about building products that solve problems.
+Artificial Intelligence & Machine Learning Undergraduate  
+Thapar Institute of Engineering and Technology (2028)  
+CGPA: 8.20  
 
----
-
-## 🏆 Merits & Achievements
--  **IOQM MERIT CERTIFICATE**
--  **OOBT IITM MERIT CERTIFICATE**
+Multimodal Healthcare AI • Clinical ML Systems • Retrieval-Augmented AI • End-to-End Deployment  
 
 ---
 
-## 🔧 Stack?
+## About
 
-**Languages, frameworks, tools:**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)  
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)  
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)  
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)   
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)  
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)  
-![Prisma](https://img.shields.io/badge/Prisma-000000?style=for-the-badge&logo=primsa&logoColor=white)
+I build production-oriented AI systems grounded in real-world, large-scale data — with a primary focus on healthcare machine learning and multimodal modeling.
 
+My work sits at the intersection of:
 
----
+- Multimodal representation learning (EHR + text + imaging)
+- Clinical decision support systems (CDSS)
+- Retrieval-augmented LLM pipelines
+- Robust ML evaluation for high-stakes environments
+- Full-stack AI system deployment
 
-## 🚧 What I’m Working On
-- 🔐 **Clipping Agent** – Clip Generation Platform from yt vid link
-- 🌐 **Ashvamedh** – Github for writing peeps:tech, psychology, geopolitics, and finance.
-- 📱 **Rust**- And trying to develop something out of it?
-- 🛡️ ML Math
-- 📊 Exploring **AI x different domains** integrations
+I care deeply about building AI that is:
+- Clinically reliable  
+- Interpretable  
+- Deployable  
+- Scalable  
 
 ---
 
-## 🚀 My Projects
+## Selected Projects
 
-### 🧠 [Ashvamedh](https://startpageashvamedh.vercel.app)
-An open source student based content agency built around deep insights across tech, psychology, finance, and geopolitics.  
-📌 Now expanding into podcast spaces and authorisable social media
+### TRIDEV — Multimodal ICU Early Warning System
+Deployed via Gradio
 
-### 🔍 [Summarizo](https://github.com/thecahintosh/Summarizo)
-A lightweight, real-time news article summarizer that uses a fine-tuned NLP model (T5-small) to generate short, readable summaries from any valid article URL. Built using Streamlit, HuggingFace Transformers, and Newspaper3k.
-📌 Currently trying to implement it into Ashvamedh
+- Integrated MIMIC-IV vitals, MIMIC-CXR radiology reports, and chest X-rays  
+- Built transformer-based multimodal encoders (CLIP-style cross-modal learning)  
+- Designed hybrid prediction pipelines combining:
+  - Rule-based Early Warning Scores  
+  - Temporal deep learning  
+  - Ensemble ML  
+  - LLM-based reasoning  
+- Implemented self-hosted medical RAG using FAISS/Pinecone for explainable clinical support  
 
-### 🛡️ Centerium (https://github.com/KrossKinetic/Centerium)
-Developed a comprehensive Examination Center Tracking Database System, named "Centerium," aimed at optimizing and streamlining the management of examination centers across India for both competitive and board examinations.
-📌 Currently building a web version for it
+Key Themes: Multimodal Learning, LLM Systems, Clinical AI
+
+---
+
+### DOSESURE — Antibiotic Resistance Prediction at Scale
+
+- Trained ML models on 1.5M+ microbiology records (PhysioNet ARMD-MGB)  
+- Built XGBoost models across 15 antibiotics  
+- Achieved:
+  - AUROC up to 0.93  
+  - Up to 16× AUPRC lift over baseline antibiogram approaches  
+- Developed a clinical-grade evaluation pipeline:
+  - Feature engineering  
+  - Calibration analysis  
+  - ROC/PR diagnostics  
+  - False-negative risk modeling  
+
+Key Themes: Large-Scale EHR Modeling, High-Stakes ML Evaluation
 
 ---
 
-## 📬 Connect with Me
+### Econ-TP — Organizational Transparency Portal
 
-[![Instagram](https://img.shields.io/badge/-shivxnshsingh-E4405F?style=flat-square&logo=Instagram&logoColor=white)](https://instagram.com/shivxnshsingh)  
-[![GitHub](https://img.shields.io/badge/-GitHub-333?style=flat-square&logo=github&logoColor=white)](https://github.com/thecahintosh)  
+- Built with Next.js 14, TypeScript, PostgreSQL  
+- Architected RESTful API (12+ endpoints) with Prisma ORM  
+- Implemented role-based authentication (NextAuth + JWT)  
+- Designed Kanban-style proposal tracking with real-time workflow management  
+
+Key Themes: Systems Engineering, Backend Architecture, Production Deployment
 
 ---
-> *"Celebrate your crisis."*
+
+## Technical Stack
+
+Languages  
+Python • TypeScript • MATLAB • R  
+
+Machine Learning  
+PyTorch • XGBoost • Transformers • Multimodal Learning • LLMs • RAG  
+
+Data & Infrastructure  
+PostgreSQL • Prisma • FAISS • Pinecone  
+
+Deployment & MLOps  
+Gradio • Streamlit • Vercel • Google Cloud APIs • Ollama  
+
+Backend & Web  
+Node.js • Express.js • Next.js • Vue.js  
+
+---
+
+## Current Research Interests
+
+- Multimodal Healthcare AI  
+- Clinical Decision Support Systems  
+- Large-Scale EHR Modeling  
+- Explainable & Retrieval-Augmented LLM Systems  
+- Reliable ML for High-Stakes Environments  
+
+---
+
+## Open To
+
+AI/ML Research Internships  
+Healthcare AI Collaborations  
+Systems ML Roles  
+Early-stage AI teams  
+
+---
+
+“Build models. Deploy systems. Evaluate rigorously.”
