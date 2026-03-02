@@ -80,7 +80,7 @@ Integrated:
 - False-negative risk modeling  
 
 **Themes:**  
-`Large-Scale EHR Modeling` `High-Stakes ML Evaluation`
+ `High-Stakes ML Evaluation`
 
 ---
 
