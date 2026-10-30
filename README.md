@@ -1,4 +1,4 @@
-# Hi, I'm Shivansh Singh 👋
+# Hi, I'm Shivansh Singh 
 
 <p align="center">
   <b>AI & Machine Learning Undergraduate at Thapar Institute of Engineering and Technology</b><br/>
@@ -136,15 +136,6 @@ An interactive evolutionary simulation where neural-network agents learn to play
 **Thapar Institute of Engineering and Technology**  
 Bachelor of Engineering in Artificial Intelligence and Machine Learning  
 Expected Graduation: 2028
-
-**CGPA:** 8.09
-
----
-
-## Achievements & Certifications
-
-- **IOQM Merit Holder**
-- Numerical and Machine Learning Techniques for Solving Real-World Differential Equations with MATLAB/Python — OOBT IITM
 
 ---
 
