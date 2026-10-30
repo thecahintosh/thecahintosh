@@ -1,148 +1,167 @@
-<h1 align="center">Shivansh Singh</h1>
+# Hi, I'm Shivansh Singh 👋
 
 <p align="center">
-  <b>Artificial Intelligence & Machine Learning Undergraduate</b><br/>
-  Multimodal Healthcare AI • Clinical ML Systems • Retrieval-Augmented AI • End-to-End Deployment
+  <b>AI & Machine Learning Undergraduate at Thapar Institute of Engineering and Technology</b><br/>
+  Agentic AI • RAG Systems • Backend Engineering • AI Deployment
+</p>
+
+<p align="center">
+  <a href="https://github.com/thecahintosh">
+    <img src="https://img.shields.io/badge/GitHub-thecahintosh-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+  </a>
 </p>
 
 ---
 
-##  About Me
+## About Me
 
-I build **production-oriented AI systems grounded in real-world, large-scale data** — with a primary focus on healthcare machine learning and multimodal modeling.
+I'm an Artificial Intelligence and Machine Learning undergraduate at **Thapar Institute of Engineering and Technology**, exploring how AI systems can move beyond prototypes into reliable, deployable applications.
 
-My work sits at the intersection of:
+I enjoy building end-to-end projects that combine intelligent agents, retrieval-augmented generation (RAG), backend services, and interactive interfaces. My work spans AI-powered technical support, prescription verification, quantum computing education, and evolutionary neural network simulations.
 
-- 🧠 Multimodal representation learning
-- 🏥 Clinical Decision Support Systems (CDSS)
-- 🔎 Retrieval-Augmented LLM pipelines
-- 📊 Robust ML evaluation for high-stakes environments
-- ⚙️ Full-stack AI system deployment
+I'm also interested in the intersection of **AI, data, and finance**, having worked as a Financial Data Analyst Intern at Bluestock Fintech.
 
-I care deeply about building AI that is:
+### What I Work On
 
-> Clinically reliable  
-> Interpretable  
-> Deployable  
-> Scalable  
+- 🤖 Agentic AI systems and tool orchestration
+- 🔎 Retrieval-Augmented Generation (RAG) and vector search
+- 🧠 LLM-powered applications and AI evaluation
+- ⚙️ Backend APIs, databases, and system integration
+- ☁️ Containerization and cloud deployment
+- 📊 Financial data analysis and intelligent dashboards
 
 ---
 
-#  Selected Projects
+## Featured Projects
+
+### 1. Production Support Agent
+
+An agentic AI technical support system that routes user requests to specialized tools for retrieval, error-code lookup, service-status checks, and support workflows.
+
+**Highlights**
+- Built an agentic workflow using LangGraph.
+- Developed a RAG pipeline with PostgreSQL, pgvector, and Gemini embeddings.
+- Created a FastAPI backend with two endpoints.
+- Added a browser-based voice interface with speech recognition and text-to-speech.
+- Built an evaluation pipeline for tool selection, source retrieval, latency, and API failures.
+- Achieved **87.5% source retrieval accuracy** on the current evaluation set.
+- Containerized the application and vector database with Docker Compose and deployed to AWS EC2.
+
+**Tech Stack:** `Python` `LangGraph` `RAG` `PostgreSQL` `pgvector` `Gemini` `FastAPI` `Docker` `AWS EC2`
 
 ---
 
-##  TRIDEV — Multimodal ICU Early Warning System  
-*Deployed via Gradio*
+### 2. ATHARV — AI-Powered Prescription Verification
 
-**Overview**
+An AI-powered prescription verification system designed to help elderly patients verify medicines and understand prescriptions in plain English.
 
-Integrated:
-- MIMIC-IV vitals  
-- MIMIC-CXR radiology reports  
-- Chest X-ray imaging  
+**Highlights**
+- Built an OCR pipeline using Tesseract and OpenCV.
+- Applied fuzzy matching and preprocessing techniques for prescription text extraction.
+- Achieved **4.1% Character Error Rate (CER)** on prescription extraction tasks.
+- Integrated a retrieval-grounded assistant powered by Groq and LLaMA 3.3 70B.
+- Developed a Streamlit interface for medication explanations and question answering.
 
-**Core Architecture**
-
-- Transformer-based multimodal encoders (CLIP-style cross-modal learning)
-- Hybrid prediction pipeline combining:
-  - Rule-based Early Warning Scores  
-  - Temporal deep learning  
-  - Ensemble ML  
-  - LLM-based reasoning  
-- Self-hosted medical RAG using FAISS / Pinecone for explainable clinical support  
-
-**Themes:**  
-`Multimodal Learning` `LLM Systems` `Clinical AI`
+**Tech Stack:** `Python` `OCR` `Tesseract` `OpenCV` `Fuzzy Matching` `RAG` `LLaMA 3.3 70B` `Groq` `Streamlit`
 
 ---
 
-##  DOSESURE — Antibiotic Resistance Prediction at Scale
+### 3. QUBIT-LABS — Interactive Quantum Learning Platform
 
-**Dataset**
+An AI-powered quantum learning platform combining visual circuit construction, quantum simulation, adaptive tutoring, and interactive learning tools.
 
-- 1.5M+ microbiology records (PhysioNet ARMD-MGB)
+**Highlights**
+- Built a visual quantum circuit builder and client-side statevector simulator.
+- Implemented Bloch sphere and probability visualizations.
+- Developed an AI-generated circuit pipeline with deterministic validation and simulation.
+- Enabled exports to Qiskit, Cirq, PennyLane, and OpenQASM.
+- Integrated Supabase authentication, PostgreSQL persistence, and row-level security.
+- Achieved **23/23 deterministic tests and 7/7 AI evaluations passing** before deployment.
 
-**Modeling**
-
-- XGBoost models across 15 antibiotics  
-
-**Performance**
-
-- AUROC up to **0.93**
-- Up to **16× AUPRC lift** over baseline antibiogram approaches  
-
-**Clinical-Grade Evaluation Pipeline**
-
-- Advanced feature engineering  
-- Calibration analysis  
-- ROC / PR diagnostics  
-- False-negative risk modeling  
-
-**Themes:**  
- `High-Stakes ML Evaluation`
+**Tech Stack:** `JavaScript` `Quantum Computing` `Groq` `Supabase` `PostgreSQL` `Qiskit` `Cirq` `PennyLane`
 
 ---
 
-##  Econ-TP — Organizational Transparency Portal
+### 4. UDTA PARINDA — Evolutionary AI Simulation
 
-**Stack**
+An interactive evolutionary simulation where neural-network agents learn to play a Flappy Bird-style game using a genetic algorithm.
 
-- Next.js 14  
-- TypeScript  
-- PostgreSQL  
-- Prisma ORM  
+**Highlights**
+- Implemented a custom **4–16–1 neural network**.
+- Developed fitness-based selection, elitism, and mutation.
+- Simulated populations of 100 agents.
+- Built a real-time visualization dashboard for neural-network activations, weight strengths, mutations, and generation progress.
+- Deployed the static application on Vercel.
 
-**System Design**
-
-- Architected RESTful API (12+ endpoints)
-- Role-based authentication (NextAuth + JWT)
-- Kanban-style proposal tracking
-- Real-time workflow management  
-
-**Themes:**  
-`Systems Engineering` `Backend Architecture` `Production Deployment`
+**Tech Stack:** `JavaScript` `Neural Networks` `Genetic Algorithms` `Evolutionary Computing` `Data Visualization` `Vercel`
 
 ---
 
-#  Technical Stack
+## Experience
 
-###  Languages
-`Python` • `TypeScript` • `MATLAB` • `R`
+### Financial Data Analyst Intern — Bluestock Fintech
+*Remote | July–September*
 
-###  Machine Learning
-`PyTorch` • `XGBoost` • `Transformers` • `Multimodal Learning` • `LLMs` • `RAG`
+- Built a financial intelligence platform across six development sprints.
+- Worked on data ingestion, SQL, and financial ratio analysis.
+- Developed stock screening, peer comparison, and valuation workflows.
+- Contributed to dashboards, NLP/PDF reporting, and clustering.
+- Worked on API development and final quality assurance.
 
-###  Data & Infrastructure
-`PostgreSQL` • `Prisma` • `FAISS` • `Pinecone`
-
-###  Deployment & MLOps
-`Gradio` • `Streamlit` • `Vercel` • `Google Cloud APIs` • `Ollama`
-
-###  Backend & Web
-`Node.js` • `Express.js` • `Next.js` • `Vue.js`
+**Focus Areas:** `Financial Analytics` `SQL` `Data Analysis` `API Development` `NLP` `Dashboards`
 
 ---
 
-#  Current Research Interests
+## Technical Skills
 
-- Multimodal Healthcare AI  
-- Clinical Decision Support Systems  
-- Large-Scale EHR Modeling  
-- Explainable & Retrieval-Augmented LLM Systems  
-- Reliable ML for High-Stakes Environments  
+### Languages
+`Python` `JavaScript` `TypeScript` `SQL` `MATLAB`
+
+### AI & Machine Learning
+`LLMs` `RAG` `LangGraph` `Gemini` `LLaMA` `OCR` `Fuzzy Matching` `Neural Networks` `Genetic Algorithms`
+
+### Backend & Databases
+`FastAPI` `PostgreSQL` `pgvector` `Supabase`
+
+### Tools & Infrastructure
+`Docker` `Docker Compose` `AWS EC2` `Git` `Vercel` `Streamlit`
+
+### Specialized Areas
+`Agentic AI` `Vector Search` `AI Evaluation` `Financial Data Analysis` `Quantum Computing`
 
 ---
 
-#  Open To
+## Education
 
-- AI/ML Research Internships  
-- Healthcare AI Collaborations  
-- Systems ML Roles  
-- Early-stage AI Teams  
+**Thapar Institute of Engineering and Technology**  
+Bachelor of Engineering in Artificial Intelligence and Machine Learning  
+Expected Graduation: 2028
+
+**CGPA:** 8.09
 
 ---
+
+## Achievements & Certifications
+
+- **IOQM Merit Holder**
+- Numerical and Machine Learning Techniques for Solving Real-World Differential Equations with MATLAB/Python — OOBT IITM
+
+---
+
+## What I'm Interested In
+
+- Building useful, reliable AI-powered applications
+- Agentic workflows and retrieval-augmented systems
+- AI/ML engineering and applied research
+- Backend systems and end-to-end deployment
+- AI applications in finance and other real-world domains
+
+---
+
+## Let's Connect
+
+I'm open to AI/ML internships, collaborative projects, and opportunities to build practical AI systems.
 
 <p align="center">
-  <i>“Build models. Deploy systems. Evaluate rigorously.”</i>
+  <i>Build intelligently. Engineer thoughtfully. Evaluate rigorously.</i>
 </p>
